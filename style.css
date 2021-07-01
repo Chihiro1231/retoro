@@ -186,61 +186,7 @@ html{
   h3:first-letter{
       color: rgba(224, 121, 73, 0.952);
       font-size: 1.45em;
-  }
-  
-  
-  footer{
-      background: rgba(165, 127, 96, 0.788);
-      width: 100%;
-      height: 6.5em;
-      min-height: 60px; /*フッターのサイズは最小60px*/
-      margin-top: 3em;
-      /*margin-bottom: 0em;*/
-  }
-  
-  footer li{
-      list-style: none;
-  }
-  
-  footer li a{
-      text-decoration: none;
-  }
-  
-  .footer-logo{
-      font-size: 1.2em;
-      float: left;
-      margin-top: 1em;
-      margin-left: -3.5em;
-      color: rgb(245, 231, 215);
-  }
-  
-  .footer-list{
-      float: right;
-      margin-right: 1em;
-  }
-  
-  
-  .footer-list a{
-      color: rgb(245, 231, 215);
-  }
-  
-  .footer-list a:hover{
-      color: rgb(236, 203, 165);
-  }
-  
-  .footer-list li.D{
-      margin-top: 0.5em;
-      margin-bottom: 0.5em;
-    }
-  
-  .footer-list li.E{
-      margin-bottom: 0.5em;
-  }
-  
-  .footer-list li.F{
-      margin-bottom: 0.5em;
-  }
-  
+  }  
   
   /*ここからハンバーガーCSS*/
   header {
@@ -338,9 +284,69 @@ html{
        padding-left: 15%;
      }
 
-     .contents img {
-       width: 16vw;
-     }
+     footer{
+      background: rgba(165, 127, 96, 0.788);
+      width: 100%;
+      height: 6.5em;
+      min-height: 60px; /*フッターのサイズは最小60px*/
+      margin-top: 3em;
+      /*margin-bottom: 0em;*/
+  }
+
+  footer li{
+      list-style: none;
+  }
+
+  footer li a{
+      text-decoration: none;
+  }
+
+  .footer-logo{
+      font-size: 1.2em;
+      float: left;
+      margin-top: 1em;
+      margin-left: -3.5em;
+      color: rgb(245, 231, 215);
+  }
+
+  .footer-list{
+      float: right;
+      margin-right: 1em;
+  }
+
+  .footer-list a{
+      color: rgb(245, 231, 215);
+  }
+
+  .footer-list a:hover{
+      color: rgb(236, 203, 165);
+  }
+
+  .footer-list li.D{
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+  .footer-list li.E{
+      margin-bottom: 0.5em;
+  }
+
+  .footer-list li.F{
+      margin-bottom: 0.5em;
+  }
+
+  #picture ul {
+    padding-left: 3vw;
+  }
+
+  #picture li {
+    display: inline-block;
+  }
+
+  #picture img {
+    width: 18vw;
+    margin: 0.5vw;
+  }
 
      .movie-list {
        height: 30vw;
@@ -363,10 +369,21 @@ html{
         height: 100%;
         padding-left: 1%;
      }
+
+     .access {
+       margin-left: 5vw;
+     }
      
      .access iframe {
        width: 590px;
        height: 450px;
+     }   
+
+     form {
+       width: 50%;
+       background-color: rgb(247, 231, 217);
+       margin-left: 5vw;
+       padding: 3% 5vw;
      }
 
    }
@@ -455,28 +472,74 @@ html{
           margin-right: 3em;
         }
 
-      .contents img {
-        width: 100%;
+        footer{
+          background: rgba(165, 127, 96, 0.788);
+          width: 100%;
+          height: 30em;
+          min-height: 150px;
       }
 
-      .contents li {
-        padding: 0vw 9vw;
+      footer li{
+          list-style: none;
       }
 
-      .movie-size {
+      footer li a{
+          text-decoration: none;
+      }
+
+      .footer-logo{
+          font-size: 13.5px;
+          text-align: center;
+          margin-top: 4em;
+          padding-top: 0.5em;
+          color: rgb(245, 231, 215);
+      }
+
+      .footer-list{
+        text-align: center;
+        font-size: 12px;
+      }
+
+      .footer-list a{
+          color: rgb(245, 231, 215);
+      }
+
+      .footer-list a:hover{
+          color: rgb(236, 203, 165);
+      }
+
+      .footer-list li.D{
+          margin-top: 0.5em;
+          margin-bottom: 0.5em;
+        }
+
+      .footer-list li.E{
+          margin-bottom: 0.5em;
+      }
+
+      .footer-list li.F{
+          margin-bottom: 0.5em;
+      }
+
+      #picture img {
+        width: 80vw;
+        margin: 2%;
+      }
+
+    .movie-size {
         position: relative;
         padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
         height: 0;
         overflow: hidden;
      }
   
-     .movie-size iframe {
+    .movie-size iframe {
         position: absolute;
         top: 0;
         left: 0;
-        width: 80%;
-        height: 80%;
-        padding-left: 10%;
+        width: 80vw;
+        height: 88%;
+        margin: 2%;
      }
 
      .access iframe {
@@ -484,39 +547,31 @@ html{
        width: 80vw;
      }
 
+     form {
+      background-color: rgb(247, 231, 217);
+      margin-left: 5vw;
+      padding: 3% 5vw;
+      width: 80%;
+     }
+
+     input {
+       width:95%;
+     }
+
+     .bottun {
+       width: 15%;
+     }
+
+     textarea {
+       width: 80%;
+     }
+
+     .access {
+       margin-left: 5vw;
+     }
+
+     #access table {
+       padding-left: 5vw;
+     }
+
     }
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.contents li {
-  float: left;
-  margin: 1%;
-}
-
-.contents ul {
-  padding: 0 5% 0 5%;
-}
-
-#picture {
-  margin: 3vw 0vw;
-}
-
-#access {
-  margin: 3vw 0vw;
-}
-
-.access {
-  padding: 0vw 5vw;
-}
-
-.access table {
-  margin-bottom: 2vw;
-}
-
-.contact {
-  padding: 0vw 5vw;
-}
