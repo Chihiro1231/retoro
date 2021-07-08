@@ -110,7 +110,7 @@ body p{
 
 
 .gallery-main .background{
-    background-image: url(header,footer/gallery/gallery.jpg);
+    background-image: url(header,footer/gallery/gallery2.png);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
@@ -122,7 +122,7 @@ body p{
 }
 
 .contact-main .background{
-  background-image: url(header,footer/gallery/contact.jpg);
+  background-image: url(header,footer/gallery/contact2.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
