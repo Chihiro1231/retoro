@@ -86,18 +86,12 @@ body p{
     list-style: none;
 }
 
-
-/*background 削除*/
-
-
 .title{
   background-color: rgba(168, 132, 102, 0.6);
 }
 
- /*main h1 削除*/
-
 .contents{
-    font-size: 17px;
+    font-size: 16px;
 }
 
 
@@ -105,7 +99,7 @@ body p{
 h2{ /*大きな見出し、h2だけ左側に線*/
     color: rgba(223, 135, 94, 0.904);
     margin-left: 1em;
-    font-size: 27px;
+    font-size: 22px;
     border-left: 0.5em solid rgba(223, 135, 94, 0.904);
     background: #FDF5E6;
     padding: 0em 0.5em;
@@ -125,7 +119,7 @@ h3{ /*小さい見出し*/
     color: rgba(223, 135, 94, 0.904);
     margin-left: 2em;
     margin-top: 1.8em;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 h3:first-letter{
@@ -463,7 +457,7 @@ padding-left: 10px;
     background-attachment: fixed;
     background-size: 700px;
     color: #fff;
-    height: 70em;
+    height: 75em;
     overflow: hidden;
     margin-top: -10px; /*ボタンの分下にずれてしまうので、上に10px詰める*/
   }
@@ -475,7 +469,7 @@ padding-left: 10px;
     background-attachment: fixed;
     background-size: 700px;
     color: #fff;
-    height: 70em;
+    height: 75em;
     overflow: hidden;
     margin-top: -10px; /*ボタンの分下にずれてしまうので、上に10px詰める*/
   }
@@ -483,16 +477,12 @@ padding-left: 10px;
   footer{
     background: rgba(165, 127, 96, 0.788);
     width: 100%;
-    height: 30em;
+    height: 20em;
     min-height: 150px;
   }
 
   footer li{
     list-style: none;
-  }
-
-  footer li a{
-    text-decoration: none;
   }
 
   .footer-logo{
