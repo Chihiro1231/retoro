@@ -370,7 +370,6 @@ padding-left: 10px;
   .twitter-tweet {
     width:auto;
     height: auto;
-    display: inline-block;
   }
 
   #instagram ul {
@@ -381,6 +380,11 @@ padding-left: 10px;
     width: 40%;
     margin: 0.5vw;
     display: inline-block;
+  }
+
+  .instagram-media {
+    width: auto;
+    height: auto;
   }
 
 }
