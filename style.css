@@ -12,7 +12,11 @@ html{
 body p{
     margin-left: 4em;
     margin-right: 4em;
-  }
+}
+
+.contents a{
+  color: rgb(168, 132, 102);
+}
 
 /*スマホのメニューのバックグラウンドカラー*/
 #nav-content{
@@ -366,6 +370,7 @@ padding-left: 10px;
   .twitter-tweet {
     width:auto;
     height: auto;
+    display: inline-block;
   }
 
   #instagram ul {
