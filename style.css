@@ -353,6 +353,31 @@ padding-left: 10px;
     margin: 0vw;
   }
 
+  #twitter ul {
+    padding-left: 3vw;
+  }
+
+  #twitter li {
+    width: 40%;
+    margin-left: 0.5vw;
+    display: inline-block;
+  }
+
+  .twitter-tweet {
+    width:auto;
+    height: auto;
+  }
+
+  #instagram ul {
+    padding-left: 3vw;
+  }
+
+  #instagram li {
+    width: 40%;
+    margin: 0.5vw;
+    display: inline-block;
+  }
+
 }
 
 /*スマホのとき*/
@@ -580,6 +605,10 @@ padding-left: 10px;
   .contact iframe {
     width: 100%;
     margin-left: 5%;
+  }
+
+  .twiiter_tweet {
+    width: 70%;
   }
 
 }
