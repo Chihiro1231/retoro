@@ -616,8 +616,29 @@ padding-left: 10px;
     margin-left: 5%;
   }
 
-  .twiiter_tweet {
-    width: 70%;
+  #twitter li {
+    width: 80%;
+    height: 100vw;
+    display: inline-block;
+  }
+
+  .twitter-tweet {
+    width: 80vw;
+    height: 50%;
+    margin-bottom: none;
+    margin: 2%;
+  }
+
+  #instagram li {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+  .instagram-media {
+    width: 60vw;
+    height: auto;
+    margin: 2%;
   }
 
 }
